@@ -1,0 +1,24 @@
+.page.theme_light {
+  --font-inter: 'Inter Variable';
+  --font-pressstart: 'PressStart2P';
+  --main-color: #fff;
+  --accent-color: #000;
+}
+
+.page.theme_dark {
+  --font-inter: 'Inter Variable';
+  --font-pressstart: 'PressStart2P';
+  --main-color: #fff;
+  --accent-color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+    --font-inter: 'Inter Variable';
+    --font-pressstart: 'PressStart2P';
+    --main-color: #000;
+    --accent-color: #00CC14;
+  }
+  
+}
