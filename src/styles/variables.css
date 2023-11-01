@@ -1,6 +1,13 @@
 :root{
   --font-inter: 'Inter Variable';
-  --font-pressstart: 'PressStart2P';
+  --font-pressstart: 'Press Start 2P';
   --main-color: #fff;
   --accent-color: #000;
+  --difference-color: #fff;
+  /* stylelint-disable-next-line color-hex-length */
+  --heart-color: #ff0000;
+  --background-image: 
+  repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+  repeating-linear-gradient(#d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+  linear-gradient(#E7E7E7, #1A1A1A 100% 0.01%);
 }
