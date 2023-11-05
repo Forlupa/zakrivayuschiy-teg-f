@@ -1,6 +1,6 @@
 :root{
-  --font-inter: 'Inter Variable';
-  --font-pressstart: 'Press Start 2P';
+  --font-inter: 'Inter Variable', sans-serif;
+  --font-pressstart: 'Press Start 2P', fantasy;
   --main-color: #fff;
   --accent-color: #000;
   --difference-color: #fff;

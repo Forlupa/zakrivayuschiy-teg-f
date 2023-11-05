@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light" />
+    <meta name="color-scheme" content="light dark" />
     <title>Закрывающий тег</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
@@ -18,7 +18,7 @@
 
   <body class="page">
     <header class="header">
-      <p class="header__label">&lt;/HTML&gt;</p>
+      <a class="header__label">&lt;/HTML&gt;</a>
       <h1 class="title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -531,7 +531,7 @@
         aria-controls="dialog-id"
       >
       <svg viewBox="0 0 40 40" class="floppy">
-        <use href="/src/images/floppy.svg#floppy">
+        <use href="/images/floppy.svg#floppy">
       </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
@@ -539,13 +539,13 @@
     <dialog class="dialog" id="dialog-id">
       <div class="dialog__container">
         <svg viewBox="0 0 40 40" class="dialog__floppy">
-          <use href="/src/images/floppy.svg#floppy">
+          <use href="/images/floppy.svg#floppy">
         </svg>
           <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
       </div>
       <form method="dialog" class="dialog__ ok-button">
-        <button class="ok-button">
-          <span class="ok-button__text">OK</span>
+        <button class="ok-button button">
+          <span class="button__text">OK</span>
         </button>
       </form>
     </dialog>
