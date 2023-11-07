@@ -245,7 +245,7 @@
   display: flex;
   justify-content: flex-end;
   padding: 0 25px 25px;
-  gap: 12px;
+  gap: 6px;
   align-items: center;
 }
 
@@ -461,6 +461,12 @@
   color: var(--accent-color);
 }
 
+.ok-button:focus-visible {
+  outline: none;
+  box-shadow: 2px 2px 0 0 var(--accent-color);
+  
+}
+
 @media (width <= 376px) {
 
   .page {
@@ -469,10 +475,6 @@
 
   .main {
     gap: 50px;
-  }
-
-  .card__button-container {
-    gap: 6px;
   }
 
   .card__img-container {
@@ -491,8 +493,8 @@
   }
 
   .dialog[open] {
-    max-width: 341px;
-    height: 193px;
+    width: 341px;
+    height: 195px;
   }
 
   .dialog__text {
